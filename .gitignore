@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.db
+
+# ML models (large binaries)
+ml/models/*.pkl
+ml/models/*.pt
+ml/datasets/*.npy
+ml/datasets/*.csv
+
+# Node
+node_modules/
+frontend/build/
+frontend/.env.local
+.npm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.log
